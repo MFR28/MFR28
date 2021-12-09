@@ -1,0 +1,141 @@
+*{margin: 0px; padding:0px;} /*elimina los margenes que por defecto nos proposionan los navegadores*/
+
+#contenedor{
+    height: auto;/*se ajusta al alto del contenido de mi sitio*/
+    width: auto;/*ocupará el 90% del dispositivo*/
+    margin: auto;/*se alinea al cento del navegador*/
+}
+
+header{
+    height: 100%;/*alto*/
+    width: auto;/*ancho ajustado al 100% del contenedor*/
+    background-color:#FDEDEC;/*color de fondo*/
+    font-size: 90px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+}
+
+.navegacion{
+    width: 100%;
+    height: auto;
+    background-color: #fdbeaa;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navegacion ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu> li{
+    display: inline-block;
+}
+
+.menu> li>a{
+    display: inline-block;
+    padding: 15px 30px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    transition: all 500ms ease;
+    word-spacing: 10px;
+}    
+
+
+.menu li a:hover{
+    color:#FDEDEC;
+    transition: all .3s;    
+    border: 2px solid #FDEDEC;
+}
+
+.submenu{
+    position: absolute;
+    background-color: #d88075;
+    width: auto;
+    display: none;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+main{
+    height: auto;/*se ajusta al alto del contenido de mi sitio*/
+    width: 100%;/*toma el 90% del contenedor*/
+    background-color: #FDEDEC;/*color de fondo*/
+    margin: auto;/*que se centre en el contenedor*/
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article{
+    margin: 1% 1% 1% 1%;/*puedo determinar los márgenes en una sola linea comenzando por top(arriba) right(derecha) bottom (abajo) left (izquierda) ayuda memoria agujas del reloj*/
+    height: auto;/*alto*/
+    width: 97,3%;/*ancho*/
+    display: inline-block;
+}
+
+h1, h2, p{
+    margin: 2px;
+    padding-left: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+aside{
+    display: inline-block;
+    height: 150px;/*alto*/
+    width: 100%;/*ancho*/
+    background-color:#fdbeaa;
+    margin-top: 4%;
+}
+
+#box1 {
+    height: 25px;
+    width: auto;
+    background-color:#e91e62c5;
+    float: left;
+}
+
+footer{
+    height: 100%;/*alto*/
+    width: 100%;/*ancho ajustado al 100% del contenedor*/
+    background-color:#e91e62c5;/*color de fondo*/
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+
+    
+
+#fa9d92
+color: #FDEDEC
+color: #FADBD8
+color: #E6B0AA
+color: #F6DDCC
+color: #F1948A
+color: #EC7063
+color: #34495E
+color: #D35400
+color: #FFCDD2
+color: #FFAB91
+color: #F8BBD0
+color: #E91E63
+color: #FBE7C6
+color: #F79489
+color: #FADCD9
+color: # F9F1F0
+color: #3B0404
+color: #B95C50
